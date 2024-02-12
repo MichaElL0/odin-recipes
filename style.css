@@ -23,6 +23,7 @@ li {
     font-size: 20px;
     background-color: aliceblue;
     text-align: center;
+    list-style: none;
 }
 
 a {
