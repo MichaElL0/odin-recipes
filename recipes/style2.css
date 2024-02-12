@@ -1,6 +1,6 @@
 * {
     font-family: monospace;
-    
+    box-sizing: border-box;
 }
 
 img {
@@ -26,8 +26,18 @@ body {
 
 p {
     font-size: 16px;
+    background-color: rgb(155, 130, 155);
+    padding: 8px;
+    display: inline-block;
  }
 
 li {
     font-size: 18px;
+    padding: 4px;
+}
+
+ol, ul {
+    background-color: rgb(155, 130, 155);
+    margin: 2px;
+    display: inline-block;
 }
